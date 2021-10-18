@@ -1,0 +1,31 @@
+{
+  "name": "slushpool",
+  "description": "Slush Pool API wrapper",
+  "version": "1.2.0",
+  "author": "Scott Pickering",
+  "bugs": "https://github.com/scottypickering/slushpool/issues",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.1"
+  },
+  "homepage": "https://github.com/scottypickering/slushpool",
+  "keywords": [
+    "bitcoin",
+    "pool",
+    "slush",
+    "slushpool"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scottypickering/slushpool.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "type": "module"
+}
